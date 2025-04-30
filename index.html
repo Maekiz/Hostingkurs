@@ -1,97 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.png" type="image/png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.png" type="image/png" />
     <title>Hostingkurs</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Hostingkurs</h1>
-    
+
     <div class="card">
-        <p>Denne nettsiden er nå hostet!</p>
-        <img src="party.png" alt="En festhatt" style="width: 200px; height: 200px;">
-        <img src="smiley.png" alt="Et hyggelig smil" style="width: 200px; height: 200px;">
+      <p>Denne nettsiden er nå hostet!</p>
+      <img
+        src="party.png"
+        alt="En festhatt"
+        style="width: 200px; height: 200px"
+      />
+      <img
+        src="smiley.png"
+        alt="Et hyggelig smil"
+        style="width: 200px; height: 200px"
+      />
     </div>
-    
+
     <div class="card">
-        <p>Github Desktop:</p>
-        <p>
-            <a href="https://krt.im/g" target="_blank">krt.im/g</a>
-        </p>
+      <p>Github Desktop:</p>
+      <p>
+        <a href="https://krt.im/g" target="_blank">krt.im/g</a>
+      </p>
     </div>
-    
+
     <div class="card">
-        <p>Klone repository:</p>
-        <p>
-            <button onclick="navigator.clipboard.writeText('git clone https://github.com/AleksanderEkman/Hostingkurs')">
-                Kopier
-            </button> 
-            <code id="cloneCommand">git clone https://github.com/AleksanderEkman/Hostingkurs</code>
-        </p>
+      <p>Klone repository:</p>
+      <p>
+        <button
+          onclick="navigator.clipboard.writeText('git clone https://github.com/AleksanderEkman/Hostingkurs')"
+        >
+          Kopier
+        </button>
+        <code id="cloneCommand"
+          >git clone https://github.com/AleksanderEkman/Hostingkurs</code
+        >
+      </p>
     </div>
-</body>
+  </body>
 </html>
 
 <style>
-    body {
-        /* Hovedfarger */
-        background-color: #f5f5f5;
-        color: #333333;
-        
-        /* Layout */
-        font-family: Arial, sans-serif;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        line-height: 1.6;
-    }
+  body {
+    /* Hovedfarger */
+    background-color: #f60a0a;
+    color: #333333;
 
-    h1 {
-        /* Header stil */
-        color: #2c3e50;
-        text-align: center;
-        margin-bottom: 30px;
-    }
+    /* Layout */
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
 
-    .card {
-        /* Card container */
-        background-color: white;
-        border-radius: 8px;
-        padding: 20px;
-        margin-bottom: 20px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
+  h1 {
+    /* Header stil */
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+  }
 
-    button {
-        /* Knapp stil */
-        background-color: #3498db;
-        color: white;
-        border: none;
-        padding: 8px 15px;
-        border-radius: 4px;
-        cursor: pointer;
-    }
+  .card {
+    /* Card container */
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
 
-    button:hover {
-        background-color: #2980b9;
-    }
+  button {
+    /* Knapp stil */
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-    code {
-        /* Kodesnutt stil */
-        background-color: #f8f8f8;
-        padding: 5px;
-        border-radius: 4px;
-        font-family: monospace;
-    }
+  button:hover {
+    background-color: #2980b9;
+  }
 
-    a {
-        color: #3498db;
-        text-decoration: none;
-    }
+  code {
+    /* Kodesnutt stil */
+    background-color: #f8f8f8;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: monospace;
+  }
 
-    a:hover {
-        text-decoration: underline;
-    }
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 </style>
